@@ -69,7 +69,6 @@ details details summary{font-size:1.02rem;font-weight:700;padding:14px 16px}
 <header class="hero">
 <h1>ברוכים הבאים.</h1>
 <p>כל מה שצריך כדי להיכנס, להתארגן ולסיים בנחת.</p>
-<nav class="nav"><a href="#way">01 מגיעים</a><a href="#in">02 נכנסים</a><a href="#space">03 מתארגנים</a><a href="#out">04 מסיימים</a></nav>
 <div class="code"><b>קוד הכספת נמצא ב־WhatsApp</b><a class="btn" href="https://wa.me/972504452580?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A4%D7%A9%D7%A8%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%90%D7%AA%20%D7%A7%D7%95%D7%93%20%D7%94%D7%9B%D7%A1%D7%A4%D7%AA%20%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A2%3F">לקוד</a></div>
 </header>
 
@@ -107,7 +106,6 @@ details details summary{font-size:1.02rem;font-weight:700;padding:14px 16px}
 </main>
 <dialog id="lb"><img alt=""></dialog>
 <script>
-document.querySelectorAll('.nav a').forEach(function(a){a.addEventListener('click',function(){var d=document.querySelector(a.getAttribute('href'));if(d)d.open=true})});
 var lb=document.getElementById('lb'),li=lb.querySelector('img');
 document.querySelectorAll('figure img').forEach(function(i){if(i.alt==='מיקום הכספת')return;i.addEventListener('click',function(){li.src=i.src;lb.showModal()})});
 lb.addEventListener('click',function(){lb.close()});
